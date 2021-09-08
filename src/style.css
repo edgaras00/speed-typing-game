@@ -1,0 +1,104 @@
+body {
+    /* background-color: #F1FAEE; */
+    /* background-color: #073605; */
+    background: rgb(7,47,6);
+    background: linear-gradient(90deg, rgba(7,47,6,1) 14%, rgba(17,126,13,1) 75%, rgba(21,136,18,1) 100%);
+}
+
+body, button, p, h2, textarea {
+    font-family: 'Share Tech Mono', monospace;
+    /* color: #2df126; */
+    color: #4F5;
+    text-shadow: 0em 0em 0.5em #23824C;
+    font-weight: bold;
+}
+
+
+button {
+    width: 8%;
+    height: 10%;
+    cursor: pointer;
+    border: 3px dashed #2df126;
+    background: transparent; 
+    outline: none;
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; }
+    to {opacity: 1; }
+}
+
+textarea {
+    /* width: 60%;
+    height: 50%; */
+    width: 94%;
+    height: 90%;
+    font-size: 18px;
+    caret-color: #2df126;
+    outline: none;
+    border: none;
+    resize: none;
+    background: transparent;
+}
+
+.container {
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ref-text {
+    /* border: 3px dashed #2df126; */
+    border-radius: 2px;
+    width: 60%;
+    height: 70%;
+    margin-bottom: 1%;
+    overflow: scroll;
+    word-wrap: break-word;
+    background: transparent;
+    text-align: left;
+    color: white;
+
+}
+
+.ref-text p {
+    font-size: 18px;
+    margin-left: 10px;
+    word-spacing: 2px;
+
+}
+
+
+.ref-text h2 {
+    text-align: center;
+}
+
+.text {
+    width: 60%;
+    height: 50%;
+    text-align: center;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.results span {
+    margin-bottom: 5px;
+}
+
+.robco {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-size: 1.5em;
+}
+
+
+
+
